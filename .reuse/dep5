@@ -1,0 +1,33 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: .vscode/*
+Copyright: 2024 Mitsubishi Electric Research Laboratories (MERL)
+License: AGPL-3.0-or-later
+
+Files: scripts/Plots.ipynb
+Copyright: 2022-2024 Mitsubishi Electric Research Laboratories (MERL)
+License: AGPL-3.0-or-later
+
+Files: data/*
+Copyright: Created by Mitsubishi Electric Research Laboratories (MERL), 2024
+License: AGPL-3.0-or-later
+
+Files: results/*
+Copyright: Created by Mitsubishi Electric Research Laboratories (MERL), 2024
+License: AGPL-3.0-or-later
+
+Files: .gitattributes
+Copyright: 2022-2024 Mitsubishi Electric Research Laboratories (MERL)
+License: AGPL-3.0-or-later
+
+Files: AUTHORS
+Copyright: 2022-2024 Mitsubishi Electric Research Laboratories (MERL)
+License: AGPL-3.0-or-later
+
+Files: requirements.txt
+Copyright: 2022-2024 Mitsubishi Electric Research Laboratories (MERL)
+License: AGPL-3.0-or-later
+
+Files: src/package-list.txt
+Copyright: 2022-2024 Mitsubishi Electric Research Laboratories (MERL)
+License: AGPL-3.0-or-later

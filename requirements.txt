@@ -1,0 +1,9 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+python=3.10
+scikit-learn-intelex
+ipykernel=6.28.0
+gurobi-logtools=3.0.0
+mock=5.1.0
+pyomo=6.7.1
+seaborn=0.13.2
