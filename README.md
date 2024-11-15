@@ -4,17 +4,43 @@ Copyright (C) 2022-2024 Mitsubishi Electric Research Laboratories (MERL)
 SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
-# **Recursive McCormick Linearization of Multilinear Programs**
+[![INFORMS Journal on Computing Logo](https://INFORMSJoC.github.io/logos/INFORMS_Journal_on_Computing_Header.jpg)](https://pubsonline.informs.org/journal/ijoc)
+
+# Recursive McCormick Linearization of Multilinear Programs
+
+This archive is distributed in association with the [INFORMS Journal on
+Computing](https://pubsonline.informs.org/journal/ijoc) under the [AGPL-3.0 License](LICENSE.md).
 
 This repository contains the problem instances and source code used in the article [Recursive McCormick Linearization of Multilinear Programs](https://doi.org/10.1287/ijoc.2023.0390), authored by David Bergman, Carlos Cardonha, Arvind U. Raghunathan, and Carlos J. Nohra.
+
+**Important: This code is being developed on an on-going basis at https://github.com/merlresearch/OptimalRML.
+Please go there if you would like to get a more recent version or would like support.**
+
+## Cite
+
+To cite the contents of this repository, please cite both the paper and this repo, using their respective DOIs.
+
+https://doi.org/10.1287/ijoc.2023.0390
+
+https://doi.org/10.1287/ijoc.2023.0390.cd
+
+Below is the BibTex for citing this snapshot of the respoitory.
+
+```BibTeX
+@article{raghunathan2022recursive,
+  title =     {Recursive McCormick Linearization of Multilinear Programs},
+  author =    {Cardonha, Carlos and Raghunathan, Arvind U. and Bergman, David and Nohra, Carlos J.},
+  publisher = {INFORMS Journal on Computing},
+  year =      {2024},
+  doi =       {10.1287/ijoc.2023.0390.cd},
+  url =       {https://github.com/INFORMSJoC/2023.0390},
+  note =      {Available for download at https://github.com/INFORMSJoC/2023.0390},
+}
+```
 
 ## Description
 
 We compare algorithms for Minimum-size and Best-Bound McCormick linearizations with alternative techniques addressing similar problems. Moreover, we compare the performance of quadratized models with the state-of-the-art technique to solve multilinear optimization problems directly.
-
-
-
-
 
 ## Computational environment
 
@@ -177,29 +203,6 @@ Comparison between `GUROBI-QCP-BB` and `BARON-MLP` 255 nontrivial instances.
 
 
 ![BB: 255 instances](results/ScatterBB.png)
-
-
-## Cite
-
-To cite the contents of this repository, please cite both the paper and this repo, using their respective DOIs.
-
-https://doi.org/10.1287/ijoc.2023.0390
-
-https://doi.org/10.1287/ijoc.2023.0390.cd
-
-Below is the BibTex for citing this snapshot of the respoitory.
-
-```BibTeX
-@article{raghunathan2022recursive,
-  title =     {Recursive McCormick Linearization of Multilinear Programs},
-  author =    {Cardonha, Carlos and Raghunathan, Arvind U. and Bergman, David and Nohra, Carlos J.},
-  publisher = {INFORMS Journal on Computing},
-  year =      {2024},
-  doi =       {10.1287/ijoc.2023.0390.cd},
-  url =       {https://github.com/INFORMSJoC/2023.0390},
-  note =      {Available for download at https://github.com/INFORMSJoC/2023.0390},
-}
-```
 
 ## Contact
 
